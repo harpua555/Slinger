@@ -1,0 +1,707 @@
+style=
+ .myDiv {
+     background-color: black;
+}
+ .myDiv2 {
+     border: 5px outset red;
+     background-color: black;
+     min-width: 285px;
+     max-width: fit-content;
+     padding: 5x;
+}
+ .button {
+     border: none;
+     color: black;
+     background-color: white;
+     padding: 10px 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 3px 3px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .round {
+     border: none;
+     color: white;
+     background-color: green;
+     padding: 10px 10px;
+     width: 38px;
+     text-align: center;
+     text-decoration: none;
+     font-weight: bold;
+     display: inline-block;
+     font-size: 15px;
+     margin: 5px 5px;
+     cursor: pointer;
+     border-radius: 50%;
+}
+ .roundl {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 5px 5px;
+     width: 35px;
+     text-align: center;
+     text-decoration: none;
+     font-weight: bold;
+     display: inline-block;
+     font-size: 25px;
+     margin: 0px 0px 5px 0px;
+     cursor: pointer;
+     border-radius: 50%;
+     transform: translate(-5px, 10px);
+     transform-origin: center;
+}
+ .roundr {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 5px 5px;
+     width: 35px;
+     text-align: center;
+     text-decoration: none;
+     font-weight: bold;
+     display: inline-block;
+     font-size: 25px;
+     margin: 0px 0px 5px 0px;
+     cursor: pointer;
+     border-radius: 50%;
+     transform: translate(5px, 10px);
+     transform-origin: center;
+}
+ .button-85 {
+     border: none;
+     color: black;
+     background-color: white;
+     padding: 10px 0px;
+     width : 85px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 3px 3px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .button-85x {
+     border: none;
+     color: black;
+     background-color: white;
+     padding: 10px 0px;
+     width : 85px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 3px 3px;
+     cursor: pointer;
+     border-radius: 40%;
+     transform: translate( 0px, 0px);
+     transform-origin: center;
+}
+ .button-55 {
+     border: none;
+     color: black;
+     background-color: white;
+     padding: 10px 10px;
+     width : 55px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 3px 3px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .button-55a {
+     border: none;
+     color: black;
+     background-color: white;
+     padding: 0px 0px;
+     width: 55px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 32px;
+     margin: 3px 3px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .button-85l {
+     border: none;
+     color: black;
+     background-color: white;
+     padding: 0px 0px;
+     width: 55px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 35px;
+     margin: 0px 0px;
+     cursor: pointer;
+     border-radius: 40%;
+     transform: rotate(180deg);
+}
+ .button-85r {
+     border: none;
+     color: black;
+     background-color: white;
+     padding: 0px 0px;
+     width: 55px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 35px;
+     margin: 0px 0px;
+     cursor: pointer;
+     border-radius: 40%;
+     transform: rotate(180deg);
+     transform-origin: center;
+}
+ .arrow-button {
+     border: none;
+     color: green;
+     padding: 5px 10px 5px 10px;
+     background-color: white;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 30px;
+     width: 55px;
+     cursor: pointer;
+     border-radius: 20%;
+     transform: rotate(0deg);
+     transform-origin: center;
+}
+ .guide-button {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 10px 0px;
+     width: 65px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 0px 5px 10px 5px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .menu-button {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 10px 0px;
+     width : 65px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+     transform : rotate(-30deg);
+     transform-origin : right;
+}
+ .info-button {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 10px 0px;
+     width : 65px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+     transform : rotate(30deg);
+     transform-origin : left;
+}
+ .exit-button {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 10px 0px;
+     width: 65px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+     transform: rotate(45deg);
+     transform-origin: top right;
+}
+ .options-button {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 10px 0px;
+     width: 65px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+     transform: rotate(-45deg);
+     transform-origin: top left;
+}
+ .red-button {
+     border: none;
+     color: white;
+     background-color: crimson;
+     padding: 10px 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .yellow-button {
+     border: none;
+     color: black;
+     background-color: gold;
+     padding: 10px 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .blue-button {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 10px 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .green-button {
+     border: none;
+     color: white;
+     background-color: green;
+     padding: 10px 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .DVR-button {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 5px 5px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 25px;
+     margin: 0px 0px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .rec-button {
+     border: double;
+     color: white;
+     background-color: red;
+     padding: 10px 0px;
+     width: 55px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 3px 3px;
+     cursor: pointer;
+     border-radius: 40%;
+}
+ .ok-button {
+     border: double;
+     color: black;
+     font-weight: bold;
+     background-color: lawngreen;
+     padding: 10px 10px;
+     width: 65px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 10px 5px;
+     cursor: pointer;
+     border-radius: 20%;
+}
+ .text {
+     border: none;
+     color: black;
+     background-color: lightblue;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 2px 2px;
+     cursor: pointer;
+}
+ .od-button {
+     border: none;
+     color: white;
+     background-color: blue;
+     padding: 0px 0px 5px 0px;
+     text-align: center;
+     text-decoration: none;
+     width: 34px;
+     display: inline-block;
+     word-wrap: break-word;
+     font-size: 25px;
+     font-weight: bold;
+     margin: 0px;
+     cursor: pointer;
+     border-radius: 50%;
+     transform: translate(0px, 15px);
+     transform-origin: center;
+}
+ .fios-button {
+     border: solid;
+     color: red;
+     background-Color: white;
+     text-align: center;
+     text-decoration: none;
+     padding: 0px 0px 0px 0px;
+     width: 64px;
+     display: inline-block;
+     word-wrap: normal;
+     font-size: 25px;
+     font-weight: bold;
+     margin: 0px 0px;
+     cursor: pointer;
+     border-radius: 20%;
+     transform: translate(0, 0px);
+}
+ .play-button {
+     border: double;
+     color: black;
+     width: 65px;
+     border-width: 4px 4px 1px 4px;
+     border-color: yellow;
+     border-style: solid;
+     border-bottom-color: black;
+     background-color: ghostwhite;
+     padding: 5px 0px 5px 0px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 30px;
+     margin: 0px 0px 0px 0px;
+     cursor: pointer;
+     border-radius: 20% 20% 0% 0%;
+     transform: translate(0px,5px);
+}
+ .pause-button {
+     border: double;
+     color: black;
+     width: 65px;
+     border-width: 1px 4px 4px 4px;
+     border-color: yellow;
+     border-style: solid;
+     border-top-color: black;
+     background-color: ghostwhite;
+     padding: 5px 0px 5px 0px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 30px;
+     margin: 0px 0px 10px 0px;
+     cursor: pointer;
+     border-radius: 0% 0% 20% 20%;
+     transform: translate(0px,0px);
+}
+ .vu {
+     border: double;
+     color: black;
+     width: 55px;
+     border-width: 0px 0px 0px 0px;
+     border-color: yellow;
+     border-style: solid;
+     border-bottom-color: black;
+     background-color: ghostwhite;
+     padding: 5px 0px 5px 0px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 30px;
+     margin: 5px 5px 0px 5px;
+     cursor: pointer;
+     border-radius: 50% 50% 0% 0%;
+     transform: translate(0px,0px);
+}
+ .vl {
+     border: double;
+     color: black;
+     width: 55px;
+     border-width: 0px 0px 0px 0px;
+     border-color: yellow;
+     border-style: solid;
+     border-bottom-color: white;
+     background-color: ghostwhite;
+     padding: 10px 5px 11px 5px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 0px 5px 0px 5px;
+     cursor: pointer;
+     border-radius: 0%;
+     transform: translate(0px,0px);
+}
+ .vd {
+     border: double;
+     color: black;
+     width: 55px;
+     border-width: 0px 0px 0px 0px;
+     border-color: black;
+     border-style: solid;
+     border-top-color: black;
+     background-color: ghostwhite;
+     padding: 5px 0px 5px 0px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 30px;
+     margin: 0px 5px 5px 5px;
+     cursor: pointer;
+     border-radius: 0% 0% 50% 50%;
+     transform: translate(0px,0px);
+}
+ .skip-back-button {
+     border: none;
+     color: white;
+     background-color: black;
+     padding: 0px 2px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 30px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+     transform: translate(30px,-40px);
+}
+ .skip-ahead-button {
+     border: none;
+     color: white;
+     background-color: black;
+     padding: 0px 2px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 30px;
+     margin: 2px 2px;
+     cursor: pointer;
+     border-radius: 40%;
+     transform: translate(-30px,-40px);
+}
+.power-button {
+     border: solid;
+     color: red;
+     background-Color: white;
+     text-align: center;
+     text-decoration: none;
+     padding: 0px 0px 0px 0px;
+     width: 60px;
+     display: inline-block;
+     word-wrap: normal;
+     font-size: 10px;
+     font-weight: bold;
+     margin: 2px 0px 0px 0px;
+     cursor: pointer;
+     border-radius: 50%;
+     transform: translate(0, 0px);
+     float: right;
+}
+buttons=:
+:<div class="myDiv">
+:<div class="myDiv2">
+:<p style="color:red; padding: 1px 1px 0px 1px; font-size:15px; margin: 2px;">
+:&emsp;Verizon FIOS&emsp;&emsp;&emsp;&emsp;&emsp;
+;power on/off character (&#9211;)does not always render correctly ... or try &#10686;
+'On/Off' : 001 : power-button
+:</p>
+:<center>
+'Menu' : 033 : menu-button
+:&emsp;
+'Guide' : 035 : guide-button
+:&emsp;
+'Info' : 046 : info-button
+;
+:<br>
+'UP' : 038 : arrow-button : &#9650;
+:<br>
+'LE' : 040 : arrow-button : &#9664;
+:&emsp;
+'OK' : 042 : ok-button
+:&emsp;
+'RT' : 041 : arrow-button : &#9654;
+:<br>
+'DN' : 039 : arrow-button : &#9660;
+;
+:<br>
+'Exit' : 036 : exit-button
+'W' : 080  : roundl : &#43;
+'OD' : 081 : od-button : &#9733;
+'F' : 045  : roundr : &#9829;
+'Options' : 063 : options-button
+;
+:<br>
+'Mute' : 008 : button-55
+:&emsp;&emsp;&emsp;&nbsp;
+:&emsp;&emsp;&emsp;
+'Last' : 021 : button-55
+;
+:<br>
+'V +' : 006 : vu : +
+:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+'C +' : 004 : vu : +
+;
+:<br>
+'VOL' : 99 : vl
+:&emsp;
+'FIOS' : 062 : fios-button
+:&emsp;
+'CH'  : 99 : vl
+;
+:<br>
+'V -' : 007 : vd : -
+:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+'C -' : 005 : vd : -
+;
+:<br>
+'Channel': Channel
+;
+:<br>
+;'ESPN' : 564 #using direct entry, following entries are keycodes which are more responsive
+'ESPN': 13,15,18
+'ESPN2': 13,15,14
+'NHL Network': 13,15,16
+:<br>
+'Skip Back' : 031 : button-55a : &#8630
+:&emsp;
+'DVR' : 073 : DVR-button
+:&emsp;
+'Skip Fwd' : 030 : button-55a : &#8631
+;
+:<br>
+'Rew' : 027 : button-55 : &#9664;&#9664;
+:&emsp;
+'Play' : 024 : play-button : &#9654;
+:&emsp;
+'Fwd' : 028 : button-55 : &#9654&#9654;
+;
+:<br>
+; some options for STOP character &#11035; &#9607; &#11035; &#10686; &#9212;
+'Stop' : 025 : button-55 : &#11035;
+:&emsp;
+'Pause' : 026 : pause-button : &#8214;
+:&emsp;
+'REC' : 029  : rec-button
+;
+:<br>
+'1' : 009 : round
+:&emsp;&emsp;
+'2' : 010 : round
+:&emsp;&emsp;
+'3' : 011 : round
+:<br>
+'4' : 012 : round
+:&emsp;&emsp;
+'5' : 013 : round
+:&emsp;&emsp;
+'6' : 014 : round
+:<br>
+'7' : 015 : round
+:&emsp;&emsp;
+'8' : 016 : round
+:&emsp;&emsp;
+'9' : 017 : round
+:<br>
+'CC' : 078 : round
+:&emsp;&emsp;
+'0' : 018 : round
+:&emsp;&emsp;
+'Z' : 079 : round
+;
+:<br>
+'A' : 076 : yellow-button
+:&emsp;&nbsp;
+'B' : 077 : blue-button
+:&emsp;&nbsp;
+'C' : 074 : red-button
+:&emsp;&nbsp;
+'D' : 075 : green-button
+;
+:<br>
+'A/V' : 072 : button-55
+:&emsp;&emsp;
+'PIP' : 053 : button-55 : PIP : &#10063;
+:&emsp;&emsp;
+'Enter' : 019 : button-55 : Enter : OK
+:<br>
+;'On' : 002
+;'Off' : 003
+;'Custom02' : 054
+;'Custom04' : 056
+;'Custom05' : 057
+;'Custom06' : 058
+;'Custom07' : 059
+;'Custom08' : 060
+;'Custom09' : 061
+;'Custom12' : 064
+;'Custom13' : 065
+;'Custom14' : 066
+;'Custom15' : 067
+;'Custom16' : 068
+;'Custom17' : 069
+;'Custom18' : 070
+;'Custom19' : 071
+;'External' : 023
+;'Live TV' : 032
+;:<br>
+;'Setup' : 033
+;'Clear' : 037
+;:<br>
+;'+100' : 020
+;'Input' : 022
+;'Angle' : 047
+;:<br>
+;'Subtitle' : 048
+;'Surround' : 049
+;'Slow' : 050
+;:<br>
+;'Eject' : 051
+;'Random' : 052
+;'Restart': Restart
+:</center>
+:</div>
+:</div>

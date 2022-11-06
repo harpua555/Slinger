@@ -1,0 +1,7 @@
+python3 -u /usr/src/app/slingbox_server.py /config/config.ini
+### remove from here including this line ###
+### edit your slinger command
+### rename to slinger.txt
+### restart docker, slinger will run with given parameter
+### use this to change config.ini path or send stdout to a log file
+### no slinger.txt it ll start default values python3 -u /usr/src/app/slingbox_server.py /config/config.ini
