@@ -31,6 +31,10 @@ WORKDIR $SLINGER_APP
 # Create working directories for Slinger
 RUN mkdir $SLINGER_CONF
 RUN chmod a+rwX $SLINGER_CONF
+RUN mkdir $SLINGER_CONF/CustomRemotes
+RUN chmod a+rwX $SLINGER_CONF/CustomRemotes
+RUN mkdir $SLINGER_CONF/Documentation
+RUN chmod a+rwX $SLINGER_CONF/Documentation
 
 # Configure container volume mappings
 VOLUME $SLINGER_CONF
