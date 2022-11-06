@@ -27,7 +27,7 @@ RUN pip3 install flask
 # Download the source code
 RUN apk add --no-cache git
 RUN git clone https://github.com/harpua555/Slinger.git $SLINGER_APP
-COPY . $SLINGER_APP
+#COPY . $SLINGER_APP
 WORKDIR $SLINGER_APP
 
 # Create working directories for Slinger
