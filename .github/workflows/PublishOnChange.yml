@@ -33,5 +33,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: harpua555/slinger:latest
-
+          tags: harpua555/slinger:latest, harpua555/slinger:${{ github.run_number }}
