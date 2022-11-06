@@ -14,8 +14,10 @@ else
 	cp -n ${SLINGER_APP}/config.ini ${SLINGER_CONF}/config.ini
 	cp -n ${SLINGER_APP}/remote.txt ${SLINGER_CONF}/sample_remote.txt
 	cp -n ${SLINGER_APP}/remote.txt ${SLINGER_CONF}/sample_remote2.txt
-	cp  ${SLINGER_APP}/CustomRemotes ${SLINGER_CONF}/CustomRemotes
-	cp  ${SLINGER_APP}/Documentation ${SLINGER_CONF}/Documentation
+	mkdir ${SLINGER_APP}/CustomRemotes
+	mkdir ${SLINGER_APP}/Documentation
+	cp -r ${SLINGER_APP}/CustomRemotes ${SLINGER_CONF}/CustomRemotes/
+	cp -r ${SLINGER_APP}/Documentation ${SLINGER_CONF}/Documentation/
 	
 	python3 -u ${SLINGER_APP}/slingbox_server.py ${SLINGER_CONF}/config.ini
 fi
