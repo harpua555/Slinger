@@ -1,10 +1,10 @@
 #!/bin/bash
 
-SLINGER_FILE=${SLINGER_CONF}/slinger.txt
+#SLINGER_FILE=${SLINGER_CONF}/slinger.txt
 
-if [ -f "$SLINGER_FILE" ]; then
-	. $SLINGER_FILE
-else
+#if [ -f "$SLINGER_FILE" ]; then
+#	. $SLINGER_FILE
+#else
 	#Copy sample files to /config volume if they don't already exist, does not override existing files
 	cp -n ${SLINGER_APP}/sample_slinger.txt ${SLINGER_CONF}/sample_slinger.txt
 	cp -n ${SLINGER_APP}/sample_xmltv.xml ${SLINGER_CONF}/sample_xmltv.xml
@@ -17,6 +17,6 @@ else
 	cp  ${SLINGER_APP}/Documentation ${SLINGER_CONF}/Documentation
 	
 	python3 -u ${SLINGER_APP}/slingbox_server.py ${SLINGER_CONF}/config.ini
-fi
+#fi
 
 exit
