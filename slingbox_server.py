@@ -1035,7 +1035,6 @@ def ConnectionManager(config_fn):
         print("Finder ID = ",finderid)
     except:
         print("Failed to fetch FinderID, continuing...")
-        continue
     server_address = ('', local_port)
     
     if cp.has_section('SLINGBOXES'):
