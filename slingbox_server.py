@@ -1091,7 +1091,7 @@ def ConnectionManager(config_fn):
    
                 result = re.search('(\/([-\w]+)(?:\/([-\w]+)?)?\??(?:channel=([0-9,+,.]+))?).*', data)
                 if result:
- #                   print("URL options", result.groups())
+                    print("URL options", result.groups())
                     channel = result.group(4)
                     if result.group(3):
                         # matched pattern for multiple boxes
