@@ -14,8 +14,8 @@ else
 	cp -n ${SLINGER_APP}/config.ini ${SLINGER_CONF}/config.ini
 	cp -n ${SLINGER_APP}/remote.txt ${SLINGER_CONF}/sample_remote.txt
 	cp -n ${SLINGER_APP}/remote.txt ${SLINGER_CONF}/sample_remote2.txt
-	mkdir ${SLINGER_APP}/CustomRemotes
-	mkdir ${SLINGER_APP}/Documentation
+	mkdir -p ${SLINGER_APP}/CustomRemotes
+	mkdir -p ${SLINGER_APP}/Documentation
 	cp -r ${SLINGER_APP}/CustomRemotes ${SLINGER_CONF}/CustomRemotes/
 	cp -r ${SLINGER_APP}/Documentation ${SLINGER_CONF}/Documentation/
 	
