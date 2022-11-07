@@ -6,6 +6,10 @@ RUN apk add --no-cache ca-certificates
 # Extras
 RUN apk add --no-cache curl
 
+# Labels
+LABEL org.opencontainers.image.url https://github.com/harpua555/Slinger
+LABEL build_version v3.0d
+
 # Timezone (TZ)
 RUN apk update && apk add --no-cache tzdata
 ENV TZ=US/Eastern
