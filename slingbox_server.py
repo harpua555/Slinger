@@ -1031,10 +1031,7 @@ def ConnectionManager(config_fn):
     for c in " !*'();:@&=+$,/?%#[]" : 
         URLbase = URLbase.replace(c, '')
     print('Connection Manager Running on port %d with %d max streams using URL %s.' % (local_port,maxstreams, URLbase))
-    try:
-        print("Finder ID = ",finderid)
-    except:
-        print("Failed to fetch FinderID, continuing...")
+
     server_address = ('', local_port)
     
     if cp.has_section('SLINGBOXES'):
