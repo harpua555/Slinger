@@ -589,6 +589,7 @@ def streamer(maxstreams, config_fn, section_name, box_name, streamer_q, server_p
     name = slinginfo.get('name', box_name )
     finderid = slinginfo.get('finderid', '' )
     if finderid :
+        print("Finder ID = ",finderid)
         # sanity checks
         finderid = finderid.strip().upper().split(':')
         ext_port = -1
